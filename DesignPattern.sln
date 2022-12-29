@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{C6415F60-19F0-4B94-930C-761FBC01B278}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singleton", "Singleton\Singleton.vcxproj", "{E1FC9BCB-9836-480C-AA2C-2610C309201C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonTest", "SingletonTest", "{4AF59E50-1AB8-42BC-A9B0-D34C816C35BB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicketMaker", "TicketMaker\TicketMaker.vcxproj", "{1ADCBEA3-83EA-4345-8F28-63DA504BB38D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1FC9BCB-9836-480C-AA2C-2610C309201C}.Debug|x64.ActiveCfg = Debug|x64
+		{E1FC9BCB-9836-480C-AA2C-2610C309201C}.Debug|x64.Build.0 = Debug|x64
+		{E1FC9BCB-9836-480C-AA2C-2610C309201C}.Debug|x86.ActiveCfg = Debug|Win32
+		{E1FC9BCB-9836-480C-AA2C-2610C309201C}.Debug|x86.Build.0 = Debug|Win32
+		{E1FC9BCB-9836-480C-AA2C-2610C309201C}.Release|x64.ActiveCfg = Release|x64
+		{E1FC9BCB-9836-480C-AA2C-2610C309201C}.Release|x64.Build.0 = Release|x64
+		{E1FC9BCB-9836-480C-AA2C-2610C309201C}.Release|x86.ActiveCfg = Release|Win32
+		{E1FC9BCB-9836-480C-AA2C-2610C309201C}.Release|x86.Build.0 = Release|Win32
+		{1ADCBEA3-83EA-4345-8F28-63DA504BB38D}.Debug|x64.ActiveCfg = Debug|x64
+		{1ADCBEA3-83EA-4345-8F28-63DA504BB38D}.Debug|x64.Build.0 = Debug|x64
+		{1ADCBEA3-83EA-4345-8F28-63DA504BB38D}.Debug|x86.ActiveCfg = Debug|Win32
+		{1ADCBEA3-83EA-4345-8F28-63DA504BB38D}.Debug|x86.Build.0 = Debug|Win32
+		{1ADCBEA3-83EA-4345-8F28-63DA504BB38D}.Release|x64.ActiveCfg = Release|x64
+		{1ADCBEA3-83EA-4345-8F28-63DA504BB38D}.Release|x64.Build.0 = Release|x64
+		{1ADCBEA3-83EA-4345-8F28-63DA504BB38D}.Release|x86.ActiveCfg = Release|Win32
+		{1ADCBEA3-83EA-4345-8F28-63DA504BB38D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1FC9BCB-9836-480C-AA2C-2610C309201C} = {C6415F60-19F0-4B94-930C-761FBC01B278}
+		{4AF59E50-1AB8-42BC-A9B0-D34C816C35BB} = {C6415F60-19F0-4B94-930C-761FBC01B278}
+		{1ADCBEA3-83EA-4345-8F28-63DA504BB38D} = {4AF59E50-1AB8-42BC-A9B0-D34C816C35BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71B18FF5-AAAC-4EB9-85FD-C069D99A7A36}
+	EndGlobalSection
+EndGlobal
